@@ -1,0 +1,27 @@
+package Practica1;
+
+//3. Dada una cantidad de tiempo expresada en segundos, construye un algoritmo que calcule cuántas horas,minutos y segundos representa dicha cantidad.
+
+public class Ejercicio3 {
+
+	public static void main(String[] args) {
+		
+		int segundos = 123456;
+		
+		int horas = (segundos / 60) / 60;
+		
+		int minutos = (segundos / 60) % 60;
+		
+		int segundos = ((segundos / 60) % 60 ) % 60;
+		
+		System.out.println("Horas: " + horas);
+		System.out.println("Minutos: " + minutos);
+		System.out.println("Segundos: " + segundos);
+
+		
+		
+		
+
+	}
+
+}

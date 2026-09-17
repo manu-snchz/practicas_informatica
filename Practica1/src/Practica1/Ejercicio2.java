@@ -1,0 +1,22 @@
+package Practica1;
+
+//2. Escribe un programa Java que dado un entero (asumir que será de tres cifras), escriba por pantalla sus tres cifras de izqierda a derecha por separado:
+
+public class Ejercicio2 {
+
+	public static void main(String[] args) {
+
+		int numero = 947;
+		
+		int unidades = numero % 10;
+		int decenas = (numero / 10) % 10; 
+		int centenas = numero / 100;
+		
+		System.out.println("Primera cifra: " + centenas);
+		System.out.println("Segunda cifra: " + decenas);
+		System.out.println("Tercera cifra: " + unidades);
+		
+	}
+	
+
+}
